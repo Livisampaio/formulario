@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <H1 class="titulo">Pesquisa de experiência.</H1>
+        <p class="subtitulo">Informações do desenvolvedor .</p>
+    </header>
+    <main>
+        <form>
+            <fieldset class="cabecalho">
+                <div>
+                    <label>Nome completo:</label>
+                    <br>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                    </fieldset>
+                    <br>
+                    <fieldset class="campo">
+                <div>
+                    <label>Em qual lado da aplicação você desenvolve?</label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Devweb" value="frontend">Front-end
+                    </label>
+                    <label>
+                        <input type="radio" name="Devweb" value="backend">Back-end
+                    </label>
+                    <label>
+                        <input type="radio" name="Devweb" value="Fullstack">Fullstack
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Em qual instituição você estuda?</label>
+                    <br>
+                    <input type="text" name="instituicao" id="instituicao">
+                </div>
+                <br>
+                <div>
+                    <label>Qual seu nivel?</label>
+                    <br>
+                    <label>
+                        <input type="radio" name="nivel" value="junior"> Junior
+                    <label>
+                        <input type="radio" name="nivel" value="pleno"> Pleno
+                    </label>
+                    <label>
+                        <input type="radio" name="nivel" value="senior"> Sênior
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>
+                        Conte mais sobre sua experiência:
+                        <br>
+                        <textarea name="comentario" id="comentario" cols="60" rows="10">...</textarea>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <input class="botao" type="submit">
+    </footer>
+</body>
+</html>
